@@ -39,7 +39,7 @@ FANART_DIR = os.path.join(ADDON_PATH, 'resources', 'images', 'fanart')
 # from some website or online service.
 VIDEOS = [
     {
-        'genre': 'Drama',
+        'genre': 'Tamil Movies',
         'icon': os.path.join(ICONS_DIR, 'Drama.png'),
         'fanart': os.path.join(FANART_DIR, 'Drama.jpg'),
         'movies': [
@@ -75,7 +75,77 @@ VIDEOS = [
         ],
     },
     {
-        'genre': 'Horror',
+        'genre': 'Tamil Dubbed Movies',
+        'icon': os.path.join(ICONS_DIR, 'Horror.png'),
+        'fanart': os.path.join(FANART_DIR, 'Horror.jpg'),
+        'movies': [
+            {
+                'title': 'House on Haunted Hill',
+                'url': 'https://ia800203.us.archive.org/18/items/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4',
+                'poster': 'https://publicdomainmovie.net/wikimedia.php?id=House_on_Haunted_Hill.jpg',
+                'plot': 'Eccentric millionaire Frederick Loren (Vincent Price) invites five people to a "party" '
+                        'he is throwing for his fourth wife, Annabelle (Carol Ohmart), '
+                        'in an allegedly haunted house he has rented, promising to give them each $10,000 '
+                        'with the stipulation that they must stay the entire night in the house after '
+                        'the doors are locked at midnight.',
+                'year': 1959,
+            },
+            {
+                'title': 'Carnival of Souls',
+                'url': 'https://ia600301.us.archive.org/8/items/CarnivalofSouls/CarnivalOfSouls_512kb.mp4',
+                'poster': 'https://publicdomainmovie.net/wikimedia.php?id=Carnival_of_Souls_%25281962_pressbook_cover%2529.jpg',
+                'plot': 'Carnival of Souls is a 1962 Independent film horror film starring Candace Hilligoss. Produced and directed by Herk Harvey '
+                        'for an estimated $33,000, the film did not gain widespread attention when originally released, '
+                        'as a B-movie; today, however, it is a cult classic.',
+                'year': 1962,
+            },
+            {
+                'title': 'The Screaming Skull',
+                'url': 'https://ia801603.us.archive.org/10/items/TheScreamingSkull/TheScreamingSkull.mp4',
+                'poster': 'https://publicdomainmovie.net/wikimedia.php?id=Poster_for_The_Screaming_Skull.jpg',
+                'plot': 'A widower remarries and the couple move into the house he shared with his previous wife. '
+                        'Only the ghost of the last wife might still be hanging around.',
+                'year': 1958,
+            },
+        ],
+    },
+     {
+        'genre': 'English Movies',
+        'icon': os.path.join(ICONS_DIR, 'Horror.png'),
+        'fanart': os.path.join(FANART_DIR, 'Horror.jpg'),
+        'movies': [
+            {
+                'title': 'House on Haunted Hill',
+                'url': 'https://ia800203.us.archive.org/18/items/house_on_haunted_hill_ipod/house_on_haunted_hill_512kb.mp4',
+                'poster': 'https://publicdomainmovie.net/wikimedia.php?id=House_on_Haunted_Hill.jpg',
+                'plot': 'Eccentric millionaire Frederick Loren (Vincent Price) invites five people to a "party" '
+                        'he is throwing for his fourth wife, Annabelle (Carol Ohmart), '
+                        'in an allegedly haunted house he has rented, promising to give them each $10,000 '
+                        'with the stipulation that they must stay the entire night in the house after '
+                        'the doors are locked at midnight.',
+                'year': 1959,
+            },
+            {
+                'title': 'Carnival of Souls',
+                'url': 'https://ia600301.us.archive.org/8/items/CarnivalofSouls/CarnivalOfSouls_512kb.mp4',
+                'poster': 'https://publicdomainmovie.net/wikimedia.php?id=Carnival_of_Souls_%25281962_pressbook_cover%2529.jpg',
+                'plot': 'Carnival of Souls is a 1962 Independent film horror film starring Candace Hilligoss. Produced and directed by Herk Harvey '
+                        'for an estimated $33,000, the film did not gain widespread attention when originally released, '
+                        'as a B-movie; today, however, it is a cult classic.',
+                'year': 1962,
+            },
+            {
+                'title': 'The Screaming Skull',
+                'url': 'https://ia801603.us.archive.org/10/items/TheScreamingSkull/TheScreamingSkull.mp4',
+                'poster': 'https://publicdomainmovie.net/wikimedia.php?id=Poster_for_The_Screaming_Skull.jpg',
+                'plot': 'A widower remarries and the couple move into the house he shared with his previous wife. '
+                        'Only the ghost of the last wife might still be hanging around.',
+                'year': 1958,
+            },
+        ],
+    },
+     {
+        'genre': 'Hindi Movies',
         'icon': os.path.join(ICONS_DIR, 'Horror.png'),
         'fanart': os.path.join(FANART_DIR, 'Horror.jpg'),
         'movies': [
@@ -114,12 +184,7 @@ VIDEOS = [
         'icon': os.path.join(ICONS_DIR, 'Comedy.png'),
         'fanart': os.path.join(FANART_DIR, 'Comedy.jpg'),
         'movies': [
-                   {
-        'genre': 'Tamil',
-        'icon': os.path.join(ICONS_DIR, 'Comedy.png'),
-        'fanart': os.path.join(FANART_DIR, 'Comedy.jpg'),
-        'movies': [
-            {
+             {
                 'title': 'DD Sports',
                 'url': 'https://livectv.phando.com/8014/playlist.m3u8',
                 'poster': 'https://www.indiantvinfo.com/media/2022/07/DD-Sports-Live.jpg',
@@ -134,7 +199,6 @@ VIDEOS = [
                 'year': 0,
             },
         ],
-       ],
     },
 ]
 
